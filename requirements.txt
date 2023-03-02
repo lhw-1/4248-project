@@ -2,4 +2,3 @@ torch
 datasets
 nltk
 gdown
-kaleido
