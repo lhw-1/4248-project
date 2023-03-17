@@ -59,7 +59,7 @@ def get_word_dict(sentences):
 def get_glove(word_dict, glove_path):
     # create word_vec with glove vectors
     word_vec = {}
-    with open(glove_path) as f:
+    with open(glove_path, encoding="latin-1") as f:
         for line in f:
             word, vec = line.split(' ', 1)
             if word in word_dict:
@@ -97,9 +97,17 @@ def get_dev_test_original_expl(data_path, data_type):
     assert data_type in ['dev', 'test']
 
     expl_1, expl_2, expl_3 = {}, {}, {}
-    expl_1['path'] = os.path.join(data_path, 'preproc1_expl_1.' + data_type)
-    expl_2['path'] = os.path.join(data_path, 'preproc1_expl_2.' + data_type)
-    expl_3['path'] = os.path.join(data_path, 'preproc1_expl_3.' + data_type)
+    # expl_1['path'] = os.path.join(data_path, 'preproc1_expl_1.' + data_type)
+    # expl_2['path'] = os.path.join(data_path, 'preproc1_expl_2.' + data_type)
+    # expl_3['path'] = os.path.join(data_path, 'preproc1_expl_3.' + data_type)
+
+    expl_1['path'] = data_path + '/preproc1_expl_1.' + data_type
+    expl_2['path'] = data_path + '/preproc1_expl_2.' + data_type
+    expl_3['path'] = data_path + '/preproc1_expl_3.' + data_type
+
+    # expl_1['path'] = data_path
+    # expl_2['path'] = data_path
+    # expl_3['path'] = data_path
 
     expl_1['sent'] = [line.rstrip() for line in open(expl_1['path'], 'r')]
     expl_2['sent'] = [line.rstrip() for line in open(expl_2['path'], 'r')]
@@ -118,13 +126,19 @@ def get_train(data_path, preproc, min_freq, n_train):
 
     data_path_train = data_path
     if n_train != -1:
-        data_path_train = os.path.join(data_path, "train_" + str(n_train) + "_freq" + str(min_freq))
+        # data_path_train = os.path.join(data_path, "train_" + str(n_train) + "_freq" + str(min_freq))
+        
+        data_path_train = data_path + "/train_" + str(n_train) + "_freq" + str(min_freq)
+        
+
         if os.path.exists(data_path_train):
             shutil.rmtree(data_path_train)
         # create subset of n_train data from train only
         makedirs(data_path_train)
         for file in ["s1.train", "s2.train", "UNK_freq_" + str(min_freq) + "_preproc1_expl_1.train", "labels.train"]:
-            copy_first_k_lines_txt(os.path.join(data_path, file), os.path.join(data_path_train, file), n_train)
+            # copy_first_k_lines_txt(os.path.join(data_path, file), os.path.join(data_path_train, file), n_train)
+            copy_first_k_lines_txt(data_path + "/" + file, data_path_train + "/" + file, n_train)
+
 
     s1, s2, target_label, expl_1 = {}, {}, {}, {}
 
@@ -135,10 +149,16 @@ def get_train(data_path, preproc, min_freq, n_train):
 
     data_type  = 'train'
     s1, s2, target_label, expl_1 = {}, {}, {}, {}
-    s1['path'] = os.path.join(data_path_train, 's1.' + data_type)
-    s2['path'] = os.path.join(data_path_train, 's2.' + data_type)
-    expl_1['path'] = os.path.join(data_path_train, freq_prefix + preproc + 'expl_1.' + data_type)
-    target_label['path'] = os.path.join(data_path_train, 'labels.' + data_type)
+    # s1['path'] = os.path.join(data_path_train, 's1.' + data_type)
+    # s2['path'] = os.path.join(data_path_train, 's2.' + data_type)
+    s1['path'] = data_path_train + '/s1.' + data_type
+    s2['path'] = data_path_train + '/s2.' + data_type
+
+    # expl_1['path'] = os.path.join(data_path_train, freq_prefix + preproc + 'expl_1.' + data_type)
+    # target_label['path'] = os.path.join(data_path_train, 'labels.' + data_type)
+
+    expl_1['path'] = data_path_train + "/" + freq_prefix + preproc + 'expl_1.' + data_type
+    target_label['path'] = data_path_train + "/" 'labels.' + data_type
 
     s1['sent'] = [line.rstrip() for line in open(s1['path'], 'r')]
     s2['sent'] = [line.rstrip() for line in open(s2['path'], 'r')]
@@ -164,12 +184,19 @@ def get_dev_test_with_expl(data_path, data_type, preproc, min_freq):
         freq_prefix = "UNK_freq_" + str(min_freq) + "_"
 
 
-    s1['path'] = os.path.join(data_path, 's1.' + data_type)
-    s2['path'] = os.path.join(data_path, 's2.' + data_type)
-    expl_1['path'] = os.path.join(data_path, freq_prefix + preproc + 'expl_1.' + data_type)
-    expl_2['path'] = os.path.join(data_path, freq_prefix + preproc + 'expl_2.' + data_type)
-    expl_3['path'] = os.path.join(data_path, freq_prefix + preproc + 'expl_3.' + data_type)
-    target_label['path'] = os.path.join(data_path, 'labels.' + data_type)
+    # s1['path'] = os.path.join(data_path, 's1.' + data_type)
+    # s2['path'] = os.path.join(data_path, 's2.' + data_type)
+    # expl_1['path'] = os.path.join(data_path, freq_prefix + preproc + 'expl_1.' + data_type)
+    # expl_2['path'] = os.path.join(data_path, freq_prefix + preproc + 'expl_2.' + data_type)
+    # expl_3['path'] = os.path.join(data_path, freq_prefix + preproc + 'expl_3.' + data_type)
+    # target_label['path'] = os.path.join(data_path, 'labels.' + data_type)
+
+    s1['path'] = data_path + '/s1.' + data_type
+    s2['path'] = data_path + '/s2.' + data_type
+    expl_1['path'] = data_path + "/" + freq_prefix + preproc + 'expl_1.' + data_type
+    expl_2['path'] = data_path + "/" + freq_prefix + preproc + 'expl_2.' + data_type
+    expl_3['path'] = data_path + "/" + freq_prefix + preproc + 'expl_3.' + data_type
+    target_label['path'] = data_path + "/" + 'labels.' + data_type
 
     s1['sent'] = [line.rstrip() for line in open(s1['path'], 'r')]
     s2['sent'] = [line.rstrip() for line in open(s2['path'], 'r')]
@@ -193,6 +220,10 @@ def get_dev_or_test_without_expl(data_path, data_type, dic_labels):
     s1['path'] = os.path.join(data_path, 's1.' + data_type)
     s2['path'] = os.path.join(data_path, 's2.' + data_type)
     target_label['path'] = os.path.join(data_path, 'labels.' + data_type)
+
+    s1['path'] = data_path + "/" + 's1.' + data_type
+    s2['path'] = data_path + "/" + 's2.' + data_type
+    target_label['path'] = data_path + "/" + 'labels.' + data_type
 
     s1['sent'] = [line.rstrip() for line in open(s1['path'], 'r')]
     s2['sent'] = [line.rstrip() for line in open(s2['path'], 'r')]

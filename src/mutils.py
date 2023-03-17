@@ -166,7 +166,7 @@ def pretty_duration(seconds):
 
 
 def get_key_from_val(val, dic_labels):
-    for k, v in dic_labels.iteritems():
+    for k, v in dic_labels.items():
         if v == val:
             return k
     raise NameError("invalid value " + str(val))
@@ -178,7 +178,7 @@ def get_keys_from_vals(vals, dic_labels):
     for i in range(vals.size(1)):
         val = vals[0][i]
         found = False
-        for k, v in dic_labels.iteritems():
+        for k, v in dic_labels.items():
             if v == val:
                 keys.append(k)
                 found = True

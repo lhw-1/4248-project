@@ -32,7 +32,8 @@ def evaluate_snli_final(esnli_net, expl_to_labels_net, criterion_expl, dataset, 
 	cum_test_n_words = 0
 
 	headers = ["gold_label", "Premise", "Hypothesis", "pred_label", "pred_expl", "Expl_1", "Expl_2", "Expl_3"]
-	expl_csv = os.path.join(current_run_dir, time.strftime("%d:%m") + "_" + time.strftime("%H:%M:%S") + "_" + dataset + ".csv")
+	# expl_csv = os.path.join(current_run_dir, time.strftime("%d:%m") + "_" + time.strftime("%H:%M:%S") + "_" + dataset + ".csv")
+	expl_csv = current_run_dir + "/" + time.strftime("%d %m") + "_" + time.strftime("%H %M %S") + "_" + dataset + ".csv"
 	remove_file(expl_csv)
 	expl_f = open(expl_csv, "a")
 	writer = csv.writer(expl_f)
@@ -250,8 +251,10 @@ def eval_all(esnli_net, expl_to_labels_net, criterion_expl, params):
 	esnli_net.eval()
 	
 	# save auxiliary tasks results at each epoch in a csv file
-	dev_csv = os.path.join(current_run_dir, time.strftime("%d:%m") + "_" + time.strftime("%H:%M:%S") + "_" + "artifacts.csv")
-	remove_file(dev_csv)
+	# dev_csv = os.path.join(current_run_dir, time.strftime("%d:%m") + "_" + time.strftime("%H:%M:%S") + "_" + "artifacts.csv")
+	dev_csv = "dev_csv_" +  time.strftime("%d %m") + "_" + time.strftime("%H %M %S") + "_" + "artifacts.csv"
+
+	# remove_file(dev_csv)
 	dev_f = open(dev_csv, "a")
 	writer = csv.writer(dev_f)
 
