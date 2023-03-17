@@ -77,15 +77,15 @@ def evaluate_snli_final(esnli_net, expl_to_labels_net, criterion_expl, dataset, 
 			
 			
 			# model forward, tgt_labels is still None bcs in test mode we get the predicted labels
-			out_expl = esnli_net((s1_batch, s1_len), (s2_batch, s2_len), input_expl_batch, mode="teacher", visualize=False)
-			# ppl
-			loss_expl = criterion_expl(out_expl.view(out_expl.size(0) * out_expl.size(1), -1), tgt_expl_batch.view(tgt_expl_batch.size(0) * tgt_expl_batch.size(1)))
-			cum_test_n_words += lens_tgt_expl.sum()
-			cum_test_ppl += loss_expl.data[0]
-			answer_idx = torch.max(out_expl, 2).cuda()[1]
-			if i % print_every == 0:
-				print("Decoded explanation " + str(index) + " :  ", get_sentence_from_indices(word_index, answer_idx[:, 0]))
-				print("\n")
+			# out_expl = esnli_net((s1_batch, s1_len), (s2_batch, s2_len), input_expl_batch, mode="teacher", visualize=False)
+			# # ppl
+			# loss_expl = criterion_expl(out_expl.view(out_expl.size(0) * out_expl.size(1), -1), tgt_expl_batch.view(tgt_expl_batch.size(0) * tgt_expl_batch.size(1)))
+			# cum_test_n_words += lens_tgt_expl.sum()
+			# cum_test_ppl += loss_expl.data[0]
+			# answer_idx = torch.max(out_expl, 2).cuda()[1]
+			# if i % print_every == 0:
+			# 	print("Decoded explanation " + str(index) + " :  ", get_sentence_from_indices(word_index, answer_idx[:, 0]))
+			# 	print("\n")
 
 		pred_expls = esnli_net((s1_batch, s1_len), (s2_batch, s2_len), input_expl_batch, mode="forloop", visualize=visualize)
 		if visualize:
