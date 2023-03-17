@@ -34,7 +34,7 @@ def evaluate_snli_final(esnli_net, expl_to_labels_net, criterion_expl, dataset, 
 	headers = ["gold_label", "Premise", "Hypothesis", "pred_label", "pred_expl", "Expl_1", "Expl_2", "Expl_3"]
 	# expl_csv = os.path.join(current_run_dir, time.strftime("%d:%m") + "_" + time.strftime("%H:%M:%S") + "_" + dataset + ".csv")
 	expl_csv = current_run_dir + "/" + time.strftime("%d %m") + "_" + time.strftime("%H %M %S") + "_" + dataset + ".csv"
-	remove_file(expl_csv)
+	# remove_file(expl_csv)
 	expl_f = open(expl_csv, "a")
 	writer = csv.writer(expl_f)
 	writer.writerow(headers)
@@ -82,7 +82,7 @@ def evaluate_snli_final(esnli_net, expl_to_labels_net, criterion_expl, dataset, 
 			loss_expl = criterion_expl(out_expl.view(out_expl.size(0) * out_expl.size(1), -1), tgt_expl_batch.view(tgt_expl_batch.size(0) * tgt_expl_batch.size(1)))
 			cum_test_n_words += lens_tgt_expl.sum()
 			cum_test_ppl += loss_expl.data[0]
-			answer_idx = torch.max(out_expl, 2)[1]
+			answer_idx = torch.max(out_expl, 2).cuda()[1]
 			if i % print_every == 0:
 				print("Decoded explanation " + str(index) + " :  ", get_sentence_from_indices(word_index, answer_idx[:, 0]))
 				print("\n")
@@ -104,7 +104,7 @@ def evaluate_snli_final(esnli_net, expl_to_labels_net, criterion_expl, dataset, 
 			#print " weights_2 ", weights_2.size()
 			#print "weights_1[0:len(sentence1_split) ", weights_1[:, :len(sentence1_split)].size()
 			#print "weights_2[0:len(sentence2_split) ", weights_2[:, :len(sentence2_split)].size()
-			all_weights = torch.cat([weights_1[:, :len(sentence1_split)], weights_2[:, :len(sentence2_split)]], 1).transpose(1,0) 
+			all_weights = torch.cat([weights_1[:, :len(sentence1_split)], weights_2[:, :len(sentence2_split)]], 1).transpose(1,0).cuda()
 			# size: (len_p + len_h) x current_T_dec
 			all_weights = all_weights.data.cpu().numpy()
 			# yaxis is the concatenation of premise and hypothesis
