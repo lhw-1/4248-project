@@ -46,7 +46,7 @@ gdown 1csv3pP-tikFZHWLEVLDMqSVDnPx77AQz
 gdown 1NaB79RJEW79VLHo0WBCR1SxLwbsTUUd5
 
 #download trained InferSent model
-gdown 1bKKmFzR4vLxpH_8mGb3N7r855bOruZM9
+gdown 1peT6jGH63zzYroqLpWo_eGZBE5E3PnGM
 
 # Cleanup
 cd ..
