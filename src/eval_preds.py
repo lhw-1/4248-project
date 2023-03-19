@@ -13,7 +13,7 @@ glove_path = '../GloVe/glove.840B.300d.txt'
 #specify filepath for predictions (relative to src)
 valid_filepath = '../dataset/esnli_dev.csv'
 #specify filepath for trained InferSent model
-infersent_filepath = '../savedir/model78.pickle'
+infersent_filepath = '../savedir/model.pickle'
 #csv saved '../pred_outputs/output.csv'
 
 def build_vocab(sentences, glove_path):
@@ -213,7 +213,7 @@ parser.add_argument("--n_epochs", type=int, default=50)
 parser.add_argument("--batch_size", type=int, default=128)  #64)
 parser.add_argument("--dpout_model", type=float, default=0., help="encoder dropout")
 parser.add_argument("--dpout_fc", type=float, default=0., help="classifier dropout")
-parser.add_argument("--nonlinear_fc", type=float, default=0, help="use nonlinearity in fc")
+parser.add_argument("--nonlinear_fc", type=float, default=1, help="use nonlinearity in fc")
 parser.add_argument("--optimizer", type=str, default="sgd,lr=0.1", help="adam or sgd,lr=0.1")
 parser.add_argument("--lrshrink", type=float, default=5, help="shrink factor for sgd")
 parser.add_argument("--decay", type=float, default=0.99, help="lr decay")
