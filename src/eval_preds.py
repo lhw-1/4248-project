@@ -1,4 +1,5 @@
 import os
+import re
 
 import argparse
 import numpy as np
@@ -8,12 +9,13 @@ import torch.nn as nn
 from torch.autograd import Variable
 
 from models import InferSent
+from nltk.tokenize import word_tokenize
 
 glove_path = '../GloVe/glove.840B.300d.txt'
 #specify filepath for predictions (relative to src)
-valid_filepath = '../dataset/esnli_dev.csv'
+valid_filepath = '../dataset/esnli_test.csv'
 #specify filepath for trained InferSent model
-infersent_filepath = '../savedir/model.pickle'
+infersent_filepath = '../savedir/model84.pickle'
 #csv saved '../pred_outputs/output.csv'
 
 def build_vocab(sentences, glove_path):
@@ -40,7 +42,7 @@ def get_word_dict(sentences):
     # create vocab of words
     word_dict = {}
     for sent in sentences:
-        for word in str(sent).split():
+        for word in word_tokenize(str(sent)):
             if word not in word_dict:
                 word_dict[word] = ''
     word_dict['<s>'] = ''
@@ -125,12 +127,12 @@ def evaluate_preds(nli_net, input_filepath=valid_filepath, output_filename='outp
     s2 = input['Sentence2'].tolist()
     s1 = np.array([
                     ['<s>'] + \
-                    [word for word in str(sent).split() if word in word_vec] + \
+                    [word for word in word_tokenize(str(sent)) if word in word_vec] + \
                     ['</s>'] for sent in s1
                   ])
     s2 = np.array([
                     ['<s>'] + \
-                    [word for word in str(sent).split() if word in word_vec] + \
+                    [word for word in word_tokenize(str(sent)) if word in word_vec] + \
                     ['</s>'] for sent in s2
                   ])
 
