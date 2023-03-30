@@ -1,1 +1,1 @@
-This directory is for EDA conducted post-run on either test or dev data, after running of pre-trained models (i.e. after predictions have been made).
+This directory is for EDA conducted on data generated after running of specific models against dev and/or test input data (i.e. after predictions have been made).
