@@ -1,0 +1,301 @@
+gold_label,Premise,Hypothesis,pred_label,pred_expl,heuristic
+neutral,The president advised the doctor .,The doctor advised the president .,entailment, the doctor is the president which means that the doctor is the doctor .,lexical_overlap
+neutral,The student saw the managers .,The managers saw the student .,entailment, the pilot saw the student because the student saw the .,lexical_overlap
+neutral,The presidents encouraged the banker .,The banker encouraged the presidents .,contradiction, the person can not both and be at the same time .,lexical_overlap
+neutral,The senators supported the actor .,The actor supported the senators .,entailment, the actor is the leader .,lexical_overlap
+neutral,The actors avoided the bankers .,The bankers avoided the actors .,entailment, actors are the actors .,lexical_overlap
+neutral,The senators mentioned the artist .,The artist mentioned the senators .,entailment, the artist is the artist .,lexical_overlap
+neutral,The managers saw the secretaries .,The secretaries saw the managers .,entailment, the postal saw is the name of the .,lexical_overlap
+neutral,The professor recognized the secretaries .,The secretaries recognized the professor .,entailment, the professor is the professor .,lexical_overlap
+neutral,The author contacted the scientist .,The scientist contacted the author .,contradiction, the scientist can not be both a patient and a scientist .,lexical_overlap
+neutral,The athletes recommended the senator .,The senator recommended the athletes .,entailment, athletes are the same as the .,lexical_overlap
+neutral,The president avoided the athlete .,The athlete avoided the president .,entailment, the president that the president was the same thing .,lexical_overlap
+neutral,The judges supported the banker .,The banker supported the judges .,entailment, the judges are the judges .,lexical_overlap
+neutral,The senators contacted the scientists .,The scientists contacted the senators .,neutral, the fact that the officials are being interviewed does not imply they are the .,lexical_overlap
+neutral,The banker thanked the tourist .,The tourist thanked the banker .,neutral, the tourist is not necessarily the .,lexical_overlap
+neutral,The tourists admired the secretary .,The secretary admired the tourists .,entailment, tourists are the same as the tourists .,lexical_overlap
+neutral,The lawyers helped the judge .,The judge helped the lawyers .,entailment, the judge and the judge are the same .,lexical_overlap
+neutral,The actors introduced the lawyer .,The lawyer introduced the actors .,entailment, the actor is the actor .,lexical_overlap
+neutral,The professors advised the judge .,The judge advised the professors .,entailment, the judge is the same as the judges .,lexical_overlap
+neutral,The artists contacted the professor .,The professor contacted the artists .,entailment, the artist is the artist .,lexical_overlap
+neutral,The student recognized the senator .,The senator recognized the student .,entailment, the student is the student .,lexical_overlap
+neutral,The secretary introduced the judge .,The judge introduced the secretary .,neutral, the judge is not necessarily the president .,lexical_overlap
+neutral,The senators introduced the president .,The president introduced the senators .,entailment, the president is the name of the .,lexical_overlap
+neutral,The lawyer introduced the professors .,The professors introduced the lawyer .,entailment, the jockey is the lawyer .,lexical_overlap
+neutral,The tourist believed the students .,The students believed the tourist .,contradiction, the tourists can not be both tourists and students .,lexical_overlap
+neutral,The athlete recommended the judge .,The judge recommended the athlete .,entailment, the athlete is the same as the judge .,lexical_overlap
+neutral,The secretary recommended the lawyer .,The lawyer recommended the secretary .,entailment, the doctor is the nun .,lexical_overlap
+neutral,The authors recommended the professors .,The professors recommended the authors .,entailment, the librarian is the same as the .,lexical_overlap
+neutral,The students thanked the authors .,The authors thanked the students .,neutral, the students are not necessarily .,lexical_overlap
+neutral,The tourist contacted the judges .,The judges contacted the tourist .,entailment, the judges are the tourist because they are judges .,lexical_overlap
+neutral,The authors introduced the students .,The students introduced the authors .,entailment, students are the same as the students .,lexical_overlap
+neutral,The author contacted the professors .,The professors contacted the author .,entailment, the author is the author .,lexical_overlap
+neutral,The judges recommended the president .,The president recommended the judges .,entailment, the president the the president is the same as the judges are the .,lexical_overlap
+neutral,The students believed the judges .,The judges believed the students .,contradiction, the judges can not be both the judges and the students .,lexical_overlap
+neutral,The athletes supported the president .,The president supported the athletes .,entailment, the leader is the same as the opposing .,lexical_overlap
+neutral,The managers introduced the bankers .,The bankers introduced the managers .,neutral," the postal team could be any type of service , not necessarily .",lexical_overlap
+neutral,The authors encouraged the judges .,The judges encouraged the authors .,contradiction, the judges can not be both at the same time .,lexical_overlap
+neutral,The actor stopped the senators .,The senators stopped the actor .,contradiction, the actor is either a member of the actor or the actor is the actor .,lexical_overlap
+neutral,The artist avoided the senators .,The senators avoided the artist .,entailment, the artist is the artist,lexical_overlap
+neutral,The actors recognized the student .,The student recognized the actors .,entailment, the actors are the student .,lexical_overlap
+neutral,The senators stopped the presidents .,The presidents stopped the senators .,contradiction, the first sentence is the first sentence ; the second is talking .,lexical_overlap
+neutral,The scientists encouraged the lawyers .,The lawyers encouraged the scientists .,contradiction, the doctors can not be both and and they are not the same .,lexical_overlap
+neutral,The professors helped the presidents .,The presidents helped the professors .,entailment, the newly helped are .,lexical_overlap
+neutral,The authors stopped the senator .,The senator stopped the authors .,neutral, the first sentence is talking about the pope .,lexical_overlap
+neutral,The professor advised the manager .,The manager advised the professor .,entailment, the manager is the professor .,lexical_overlap
+neutral,The manager introduced the judge .,The judge introduced the manager .,entailment, the judge is the manager .,lexical_overlap
+neutral,The presidents contacted the scientist .,The scientist contacted the presidents .,entailment, the scientist is the professor .,lexical_overlap
+neutral,The artists encouraged the scientists .,The scientists encouraged the artists .,entailment, the artists are the same as the artists .,lexical_overlap
+neutral,The lawyer advised the author .,The author advised the lawyer .,entailment, the doctor is the doctor .,lexical_overlap
+neutral,The student contacted the senator .,The senator contacted the student .,entailment, the student is the student .,lexical_overlap
+neutral,The students recognized the professor .,The professor recognized the students .,entailment, the professor is the same as the professor .,lexical_overlap
+neutral,The actor believed the scientist .,The scientist believed the actor .,contradiction, the actor can not be a cameraman and a cameraman at the same time .,lexical_overlap
+neutral,The artist contacted the tourist .,The tourist contacted the artist .,entailment, the artist is the artist .,lexical_overlap
+neutral,The president helped the actors .,The actors helped the president .,entailment, the actors are giving the picture of the actors .,lexical_overlap
+neutral,The professors introduced the secretary .,The secretary introduced the professors .,entailment, the nun is the .,lexical_overlap
+neutral,The doctors advised the senator .,The senator advised the doctors .,entailment, doctors are the doctors .,lexical_overlap
+neutral,The doctors believed the student .,The student believed the doctors .,neutral, the doctors being the student does not imply that they are the doctors .,lexical_overlap
+neutral,The judges mentioned the student .,The student mentioned the judges .,entailment, the judges are the judges .,lexical_overlap
+neutral,The judge called the doctors .,The doctors called the judge .,entailment, the doctors ' is a rephrasing of ' the doctors ' .,lexical_overlap
+neutral,The managers stopped the president .,The president stopped the managers .,entailment, the president stopped the president is the same as the president stopped the .,lexical_overlap
+neutral,The artist introduced the tourists .,The tourists introduced the artist .,entailment, the artist is the artist .,lexical_overlap
+neutral,The manager contacted the secretaries .,The secretaries contacted the manager .,entailment, the manager is the manager .,lexical_overlap
+neutral,The judges recommended the secretary .,The secretary recommended the judges .,entailment, the judges could be the nun .,lexical_overlap
+neutral,The actors called the professor .,The professor called the actors .,entailment, the professor is the actors .,lexical_overlap
+neutral,The scientists avoided the actors .,The actors avoided the scientists .,neutral, scientists are not necessarily actors .,lexical_overlap
+neutral,The banker encouraged the artists .,The artists encouraged the banker .,neutral, the artist is not necessarily the .,lexical_overlap
+neutral,The artists believed the bankers .,The bankers believed the artists .,contradiction, the artists can not be both the and and the same time .,lexical_overlap
+neutral,The professor recommended the manager .,The manager recommended the professor .,entailment, the employee is the professor .,lexical_overlap
+neutral,The doctor thanked the secretary .,The secretary thanked the doctor .,entailment, the nun is the doctor .,lexical_overlap
+neutral,The banker admired the actors .,The actors admired the banker .,neutral, the actors are not necessarily actors .,lexical_overlap
+neutral,The banker thanked the lawyer .,The lawyer thanked the banker .,entailment, the lawyer is the lawyer .,lexical_overlap
+neutral,The managers called the athletes .,The athletes called the managers .,entailment, the athletes are the athletes .,lexical_overlap
+neutral,The tourists introduced the authors .,The authors introduced the tourists .,neutral, not all the people are .,lexical_overlap
+neutral,The secretary mentioned the authors .,The authors mentioned the secretary .,neutral, the nun is not necessarily the nun .,lexical_overlap
+neutral,The banker admired the tourist .,The tourist admired the banker .,contradiction, the person is either a or a gentleman .,lexical_overlap
+neutral,The lawyers thanked the managers .,The managers thanked the lawyers .,neutral, the postal team is not necessarily the mayor .,lexical_overlap
+neutral,The authors recognized the judges .,The judges recognized the authors .,entailment, the judges are the same .,lexical_overlap
+neutral,The senators saw the author .,The author saw the senators .,neutral, the author saw the author .,lexical_overlap
+neutral,The students stopped the professors .,The professors stopped the students .,entailment, the students are the students .,lexical_overlap
+neutral,The athletes thanked the student .,The student thanked the athletes .,entailment, the athletes are the student .,lexical_overlap
+neutral,The lawyers recommended the professor .,The professor recommended the lawyers .,entailment, the professor is the doctors .,lexical_overlap
+neutral,The student believed the presidents .,The presidents believed the student .,entailment, the student is the student .,lexical_overlap
+neutral,The tourist believed the scientists .,The scientists believed the tourist .,contradiction, the tourist can not be both at the same time .,lexical_overlap
+neutral,The doctors supported the author .,The author supported the doctors .,contradiction, the author is either following the author or the doctors .,lexical_overlap
+neutral,The doctor encouraged the author .,The author encouraged the doctor .,contradiction, the doctor can not be both and doctor .,lexical_overlap
+neutral,The managers encouraged the secretaries .,The secretaries encouraged the managers .,neutral, the volunteers are not necessarily .,lexical_overlap
+neutral,The lawyers advised the tourist .,The tourist advised the lawyers .,entailment, the tourist is the same as the tourist .,lexical_overlap
+neutral,The presidents stopped the student .,The student stopped the presidents .,entailment, the student is the subject of the professor .,lexical_overlap
+neutral,The judges avoided the secretary .,The secretary avoided the judges .,contradiction, the judges either are the judges or the nun .,lexical_overlap
+neutral,The author recognized the artist .,The artist recognized the author .,entailment, the author is the author .,lexical_overlap
+neutral,The artist mentioned the manager .,The manager mentioned the artist .,entailment, the manager is the artist .,lexical_overlap
+neutral,The students thanked the managers .,The managers thanked the students .,entailment, the students are the students .,lexical_overlap
+neutral,The secretary admired the presidents .,The presidents admired the secretary .,entailment, the nun is the name of the president .,lexical_overlap
+neutral,The artist introduced the judges .,The judges introduced the artist .,entailment, the artist is the artist .,lexical_overlap
+neutral,The secretaries recommended the judges .,The judges recommended the secretaries .,entailment, the judges are the judges .,lexical_overlap
+neutral,The manager avoided the bankers .,The bankers avoided the manager .,entailment, the manager could be the same as the manager .,lexical_overlap
+neutral,The secretaries helped the judge .,The judge helped the secretaries .,entailment, the judge and the judge who the the the group .,lexical_overlap
+neutral,The author introduced the secretary .,The secretary introduced the author .,entailment, the nun is the name of the author .,lexical_overlap
+neutral,The judge contacted the doctors .,The doctors contacted the judge .,entailment, the judge is the judge .,lexical_overlap
+neutral,The judge believed the actors .,The actors believed the judge .,contradiction, the actors can not be both actors and actors .,lexical_overlap
+neutral,The tourists recognized the senators .,The senators recognized the tourists .,entailment, the second sentence is less descriptive of the first,lexical_overlap
+neutral,The manager knew the tourists supported the author .,The manager knew the tourists .,entailment, the author who the tourist has the meaning of the words .,subsequence
+neutral,The manager knew the athlete mentioned the actor .,The manager knew the athlete .,entailment, the cameraman did the athlete that was the cameraman .,subsequence
+neutral,The lawyers knew the professors mentioned the presidents .,The lawyers knew the professors .,contradiction, the doctors did the professor .,subsequence
+neutral,The managers heard the secretary encouraged the author .,The managers heard the secretary .,contradiction, the manager can not be the president and the president at the same time .,subsequence
+neutral,The artists heard the judges saw the scientists .,The artists heard the judges .,entailment, the judges saw the judges saw the judges saw the .,subsequence
+neutral,The scientists heard the presidents believed the students .,The scientists heard the presidents .,entailment, the scientists hear the university because the violinists were by the students .,subsequence
+neutral,The tourists believed the secretaries performed .,The tourists believed the secretaries .,contradiction, the tourists can not be both performing and giving the same time .,subsequence
+neutral,The professors believed the managers shouted .,The professors believed the managers .,contradiction, the officials can not be both shouting and being the same .,subsequence
+neutral,The presidents heard the actor resigned .,The presidents heard the actor .,entailment, the actor is telling the actor .,subsequence
+neutral,The student knew the tourist arrived .,The student knew the tourist .,entailment, the student did the tourist because he was in the past .,subsequence
+neutral,The scientist believed the artists ran .,The scientist believed the artists .,entailment, the scientist who the artist was the artists .,subsequence
+neutral,The lawyers believed the bankers resigned .,The lawyers believed the bankers .,neutral, the first sentence does not say the cowboys were the .,subsequence
+neutral,The scientists knew the presidents believed the authors .,The scientists knew the presidents .,contradiction, the scientists either the same or the the .,subsequence
+neutral,The presidents knew the professor encouraged the artists .,The presidents knew the professor .,contradiction, the professor did the professor 's the other .,subsequence
+neutral,The judge knew the lawyer thanked the actor .,The judge knew the lawyer .,contradiction, the actor did not have a lawyer .,subsequence
+neutral,The senator knew the professors called the actors .,The senator knew the professors .,entailment, the pope that the professor is the same as the .,subsequence
+neutral,The student heard the professors resigned .,The student heard the professors .,neutral, the student did not necessarily just the professor .,subsequence
+neutral,The doctor knew the athletes advised the secretaries .,The doctor knew the athletes .,entailment, the doctor did the athletes because he was the the first sentence .,subsequence
+neutral,The tourist believed the presidents contacted the lawyers .,The tourist believed the presidents .,contradiction, the tourist can not be both the ones and the president .,subsequence
+neutral,The judges heard the actors performed .,The judges heard the actors .,entailment, the actors hear the actors because they were the actors .,subsequence
+neutral,The senators believed the scientists helped the student .,The senators believed the scientists .,contradiction, the students can not be both at the same time .,subsequence
+neutral,The secretary believed the professors stopped the actor .,The secretary believed the professors .,contradiction, the actor can not be the same as the .,subsequence
+neutral,The tourist believed the actors waited .,The tourist believed the actors .,contradiction, the tourists were either waiting or not .,subsequence
+neutral,The actors heard the presidents ran .,The actors heard the presidents .,neutral," the actors did the same time , not just the .",subsequence
+neutral,The lawyers heard the athlete advised the manager .,The lawyers heard the athlete .,entailment, the athlete that the manager is the athlete .,subsequence
+neutral,The senator knew the managers performed .,The senator knew the managers .,entailment, the manager was the beginning of the day .,subsequence
+neutral,The judge believed the tourist arrived .,The judge believed the tourist .,entailment, the statue was the tourist .,subsequence
+neutral,The tourists heard the manager avoided the secretary .,The tourists heard the manager .,contradiction, the customer that the manager is either a or the other .,subsequence
+neutral,The authors knew the lawyers called the senator .,The authors knew the lawyers .,entailment, the pope ' the name ' the ' they ' the ',subsequence
+neutral,The lawyer heard the secretary avoided the doctors .,The lawyer heard the secretary .,neutral, the second sentence says the boss was at the office .,subsequence
+neutral,The author believed the professors performed .,The author believed the professors .,entailment, the author who the professor is the author .,subsequence
+neutral,The authors heard the tourist advised the presidents .,The authors heard the tourist .,entailment, the tourist teller the tourist is the author .,subsequence
+neutral,The tourist heard the doctors ran .,The tourist heard the doctors .,neutral, the first sentence says the tourist was the doctors .,subsequence
+neutral,The senator knew the doctors arrived .,The senator knew the doctors .,neutral, the doctors did not necessarily the doctors .,subsequence
+neutral,The artists heard the lawyer supported the actor .,The artists heard the lawyer .,entailment, the boss being interviewed is the same as the lawyer .,subsequence
+neutral,The doctors believed the scientists helped the authors .,The doctors believed the scientists .,contradiction, the doctors can not be the ones and the same time .,subsequence
+neutral,The athletes knew the authors recommended the actor .,The athletes knew the authors .,neutral, the skateboarders did not necessarily have the same .,subsequence
+neutral,The author believed the doctors introduced the managers .,The author believed the doctors .,entailment, the author is the patient .,subsequence
+neutral,The senator heard the secretary resigned .,The senator heard the secretary .,entailment, the pope that the president was the president .,subsequence
+neutral,The doctors heard the president thanked the authors .,The doctors heard the president .,contradiction, the doctors hear the president and the hear was the president .,subsequence
+neutral,The doctor believed the actors waited .,The doctor believed the actors .,entailment, the doctor is the actors because the doctor was the actors .,subsequence
+neutral,The artist heard the manager saw the doctor .,The artist heard the manager .,entailment, the employee is the employee .,subsequence
+neutral,The actor knew the athletes arrived .,The actor knew the athletes .,neutral, the actor did the athletes just because he did not necessarily know the athletes .,subsequence
+neutral,The actor knew the tourist called the president .,The actor knew the tourist .,entailment, the actor could the tourist that the president .,subsequence
+neutral,The secretary believed the author saw the professor .,The secretary believed the author .,entailment, the author who the author is the author .,subsequence
+neutral,The scientists heard the professors resigned .,The scientists heard the professors .,neutral, the scientists did not necessarily have the same .,subsequence
+neutral,The presidents believed the student called the athlete .,The presidents believed the student .,neutral, the second sentence is explaining the student .,subsequence
+neutral,The senator believed the banker recommended the actor .,The senator believed the banker .,neutral, the baker is not necessarily the .,subsequence
+neutral,The students heard the judges mentioned the athlete .,The students heard the judges .,entailment, the judges that the judges are the same .,subsequence
+neutral,The secretaries believed the judges stopped the authors .,The secretaries believed the judges .,contradiction, the judges are not the same as the judges .,subsequence
+neutral,The scientist heard the judge avoided the senator .,The scientist heard the judge .,contradiction, the scientist either the judge or the judge .,subsequence
+neutral,The actors heard the lawyer performed .,The actors heard the lawyer .,entailment, the rapper is the same as the lawyer .,subsequence
+neutral,The professor heard the presidents saw the lawyers .,The professor heard the presidents .,entailment, the professor was the president and the second sentence is the same .,subsequence
+neutral,The judge knew the senator shouted .,The judge knew the senator .,contradiction, the judge either the pope or the .,subsequence
+neutral,The judge knew the senators believed the author .,The judge knew the senators .,neutral, the author did the pope .,subsequence
+neutral,The tourist believed the scientists shouted .,The tourist believed the scientists .,neutral, the fact that the tourist were the same point does n't imply that the statue was the scientists .,subsequence
+neutral,The secretaries believed the actors slept .,The secretaries believed the actors .,neutral, the actors being the actors does not imply they are the actors .,subsequence
+neutral,The secretary knew the lawyer danced .,The secretary knew the lawyer .,neutral, the nun did not necessarily have the lawyer .,subsequence
+neutral,The doctors believed the banker saw the tourists .,The doctors believed the banker .,entailment, the people who are the are the people who are the .,subsequence
+neutral,The professors believed the senators introduced the athlete .,The professors believed the senators .,entailment, the second sentence is less descriptive of the .,subsequence
+neutral,The doctor knew the professor avoided the authors .,The doctor knew the professor .,entailment, the doctor was the professor .,subsequence
+neutral,The authors knew the judges shouted .,The authors knew the judges .,entailment, the judges that the judges are the same .,subsequence
+neutral,The banker knew the athletes recommended the tourists .,The banker knew the athletes .,entailment, the bicyclists who are the bicyclists who are the athletes .,subsequence
+neutral,The artists believed the doctor ran .,The artists believed the doctor .,entailment, the doctor is the doctor .,subsequence
+neutral,The athletes knew the actors contacted the secretaries .,The athletes knew the actors .,contradiction, the athletes either the actors or the actors .,subsequence
+neutral,The bankers knew the judges performed .,The bankers knew the judges .,entailment, judges the judges performing the performance .,subsequence
+neutral,The tourists heard the presidents waited .,The tourists heard the presidents .,entailment, the tourists are the same as they await the president .,subsequence
+neutral,The senator knew the manager ran .,The senator knew the manager .,entailment, manager is the same as manager .,subsequence
+neutral,The actor believed the athletes resigned .,The actor believed the athletes .,entailment, the actor could be being watched by the actor .,subsequence
+neutral,The manager heard the president admired the athletes .,The manager heard the president .,contradiction, the manager can not be the president and the same time .,subsequence
+neutral,The actor believed the professor introduced the banker .,The actor believed the professor .,contradiction, the professor can not be the professor and the professor at the same time .,subsequence
+neutral,The secretary believed the athletes waited .,The secretary believed the athletes .,entailment, the uniformed waited the same time .,subsequence
+neutral,The scientist heard the doctor introduced the president .,The scientist heard the doctor .,contradiction, the professor can not be the doctor and the doctor at the same time .,subsequence
+neutral,The doctor knew the bankers admired the lawyer .,The doctor knew the bankers .,entailment, the doctor was the lawyer .,subsequence
+neutral,The artists believed the tourist thanked the bankers .,The artists believed the tourist .,contradiction, the artists can not be both tourists and the tourist at the same time .,subsequence
+neutral,The judges knew the student saw the author .,The judges knew the student .,entailment, the author who the teacher is the same as the author saw the teacher .,subsequence
+neutral,The senators believed the artist shouted .,The senators believed the artist .,contradiction, the singer can not be both shouting and ignoring the artist .,subsequence
+neutral,The senator heard the athlete performed .,The senator heard the athlete .,entailment, the athlete is the athlete .,subsequence
+neutral,The professors knew the athlete recognized the students .,The professors knew the athlete .,entailment, the athlete who the athlete is the same thing .,subsequence
+neutral,The secretaries heard the athletes helped the president .,The secretaries heard the athletes .,entailment, the athletes that the opposing helped to the president .,subsequence
+neutral,The secretaries believed the manager recognized the scientist .,The secretaries believed the manager .,contradiction, the manager can not be both the scientist and the manager .,subsequence
+neutral,The doctor heard the athlete recommended the lawyers .,The doctor heard the athlete .,entailment, the doctor is the athlete .,subsequence
+neutral,The president heard the professor recognized the scientists .,The president heard the professor .,entailment, the professor is the professor .,subsequence
+neutral,The tourist heard the actor encouraged the secretaries .,The tourist heard the actor .,contradiction, the actor is either giving a speech or the actor .,subsequence
+neutral,The tourist believed the judges danced .,The tourist believed the judges .,contradiction, the dancer can not be dancing and be the judges at the same time .,subsequence
+neutral,The senator believed the secretaries encouraged the scientists .,The senator believed the secretaries .,entailment, the second sentence is a less specific version of the first sentence .,subsequence
+neutral,The judges believed the athletes mentioned the bankers .,The judges believed the athletes .,entailment, the judges who the athletes are the same .,subsequence
+neutral,The professors heard the artists contacted the judges .,The professors heard the artists .,entailment, the artists are the judges .,subsequence
+neutral,The professors heard the artists ran .,The professors heard the artists .,entailment, the artists are the same .,subsequence
+neutral,The professors heard the artist performed .,The professors heard the artist .,entailment, the artist is the artist .,subsequence
+neutral,The scientist heard the senator arrived .,The scientist heard the senator .,entailment, the scientist is the professor .,subsequence
+neutral,The lawyers heard the senator arrived .,The lawyers heard the senator .,entailment, the pope was the pastor .,subsequence
+neutral,The tourist believed the students helped the manager .,The tourist believed the students .,neutral, the guide was not necessarily the students .,subsequence
+neutral,The secretaries believed the doctor arrived .,The secretaries believed the doctor .,entailment, the doctors could be the patient of the doctor .,subsequence
+neutral,The athlete heard the scientist stopped the professor .,The athlete heard the scientist .,entailment, the scientist who is the professor is a scientist .,subsequence
+neutral,The scientist knew the professors stopped the bankers .,The scientist knew the professors .,entailment, the scientist was the professor .,subsequence
+neutral,The presidents knew the managers stopped the scientists .,The presidents knew the managers .,neutral, the doctors did not necessarily the same .,subsequence
+neutral,The artist heard the scientists ran .,The artist heard the scientists .,entailment, the scientist is the same thing .,subsequence
+neutral,The doctors knew the senator avoided the professor .,The doctors knew the senator .,contradiction, the doctors did the pope .,subsequence
+neutral,The secretaries believed the senators introduced the scientist .,The secretaries believed the senators .,neutral, the fact that the nuns are the the same as the scientist does n't imply they are the .,subsequence
+neutral,"In case the doctors stopped the author , the bankers helped the manager .",The doctors stopped the author .,entailment, the doctors stopped the author is the same as the doctors stopped the author .,constituent
+neutral,"Whether or not the professor danced , the student waited .",The professor danced .,entailment, the professor is a person .,constituent
+neutral,"Whether or not the managers waited , the doctors stopped the professor .",The managers waited .,entailment, the employees waited because they are waiting .,constituent
+neutral,"Unless the doctors ran , the lawyers encouraged the scientists .",The doctors ran .,entailment, doctors run is the same as doctors doctors .,constituent
+neutral,"In case the judges waited , the senators arrived .",The judges waited .,entailment, the judges waited is the same as the judges waited .,constituent
+neutral,"Unless the authors slept , the secretaries ran .",The authors slept .,entailment, the joggers are asleep .,constituent
+neutral,"In case the students recognized the bankers , the actors stopped the lawyers .",The students recognized the bankers .,entailment, students are the same as the actors .,constituent
+neutral,"In case the artist saw the managers , the students danced .",The artist saw the managers .,entailment, the artist saw the .,constituent
+neutral,"Unless the senators ran , the professors recommended the doctor .",The senators ran .,entailment, the postal ran is the same as the first sentence .,constituent
+neutral,"Whether or not the artists believed the banker , the students recognized the tourists .",The artists believed the banker .,contradiction, the artists either the the group or the artist can not be the same .,constituent
+neutral,"If the judge encouraged the managers , the lawyers supported the doctors .",The judge encouraged the managers .,entailment, the judge is the same as the judge .,constituent
+neutral,"In case the judges mentioned the athlete , the artists avoided the tourists .",The judges mentioned the athlete .,entailment, the judges who the the the same time .,constituent
+neutral,"Whether or not the senators believed the scientist , the doctors recommended the managers .",The senators believed the scientist .,contradiction, the scientist can not be both and and the same person .,constituent
+neutral,"Unless the doctor avoided the secretary , the scientist mentioned the artists .",The doctor avoided the secretary .,entailment, the doctor was the doctor .,constituent
+neutral,"If the athletes believed the students , the actors recognized the presidents .",The athletes believed the students .,entailment, athletes are the students .,constituent
+neutral,"Whether or not the manager admired the president , the professor helped the doctor .",The manager admired the president .,contradiction, the manager can not be the president and the president at the same time .,constituent
+neutral,"In case the judge mentioned the actor , the bankers called the secretary .",The judge mentioned the actor .,entailment, the judge is the actor .,constituent
+neutral,"If the student encouraged the managers , the professor called the judges .",The student encouraged the managers .,entailment, the student is the librarian .,constituent
+neutral,"In case the actors avoided the senator , the doctor recognized the judge .",The actors avoided the senator .,contradiction, the actors either the pope or the pope .,constituent
+neutral,"Unless the judges performed , the presidents thanked the authors .",The judges performed .,contradiction, the judges are either performing or the judges are .,constituent
+neutral,"Whether or not the presidents recognized the manager , the athlete ran .",The presidents recognized the manager .,entailment, the name of the word ' is the same as the president .,constituent
+neutral,"Unless the secretaries helped the author , the students danced .",The secretaries helped the author .,entailment," the pastor helped the author , so the students helped the author .",constituent
+neutral,"Unless the athlete helped the judges , the presidents arrived .",The athlete helped the judges .,entailment, the athlete helped the judges because the helped .,constituent
+neutral,"Whether or not the artist introduced the author , the scientist saw the tourist .",The artist introduced the author .,entailment, artist is the name of the author .,constituent
+neutral,"Whether or not the actors performed , the lawyer supported the scientists .",The actors performed .,entailment, the actors performed by the doctor .,constituent
+neutral,"In case the secretaries called the authors , the athlete supported the professors .",The secretaries called the authors .,entailment, the first sentence says the same as the first sentence .,constituent
+neutral,"Unless the president recognized the lawyer , the students arrived .",The president recognized the lawyer .,neutral, the first sentence says the president the the president .,constituent
+neutral,"If the artists slept , the doctor shouted .",The artists slept .,entailment, the musicians are asleep,constituent
+neutral,"If the actors introduced the students , the author avoided the judge .",The actors introduced the students .,contradiction, the actors are either giving the picture or the .,constituent
+neutral,"If the lawyers encouraged the author , the secretary slept .",The lawyers encouraged the author .,contradiction, the nun can not be both listening and giving the same words .,constituent
+neutral,"Unless the bankers resigned , the senators danced .",The bankers resigned .,entailment, the nine ballerinas are dancing .,constituent
+neutral,"If the managers waited , the senators called the lawyers .",The managers waited .,entailment, the employees waited because they are waiting .,constituent
+neutral,"In case the artist recommended the banker , the lawyer advised the professors .",The artist recommended the banker .,entailment, the second sentence is a less descriptive version of the first sentence .,constituent
+neutral,"If the authors slept , the students shouted .",The authors slept .,entailment, the students who are asleep are students .,constituent
+neutral,"Whether or not the actors performed , the banker resigned .",The actors performed .,contradiction, actors are not the actors .,constituent
+neutral,"Whether or not the student recommended the authors , the judge resigned .",The student recommended the authors .,contradiction, the student can not be both and and the same time .,constituent
+neutral,"Whether or not the manager stopped the author , the athlete resigned .",The manager stopped the author .,entailment, the manager stopped the author is the same as the manager stopped the author .,constituent
+neutral,"In case the banker helped the actors , the students advised the lawyers .",The banker helped the actors .,entailment, the senior citizen is the same as the senior helped the actors .,constituent
+neutral,"In case the manager advised the tourists , the secretaries contacted the professor .",The manager advised the tourists .,entailment, the manager is the customer .,constituent
+neutral,"In case the lawyers waited , the athletes ran .",The lawyers waited .,entailment, the doctors waited is the same as the doctors waited .,constituent
+neutral,"In case the actors advised the senator , the judges danced .",The actors advised the senator .,contradiction, the actors can not be both and the same time .,constituent
+neutral,"If the authors shouted , the actor contacted the tourist .",The authors shouted .,entailment, the actor is the actor .,constituent
+neutral,"In case the doctor saw the managers , the president shouted .",The doctor saw the managers .,entailment, the doctor saw the officials .,constituent
+neutral,"If the lawyer avoided the athletes , the president stopped the judge .",The lawyer avoided the athletes .,entailment, the jockey was the judge .,constituent
+neutral,"In case the manager waited , the senators advised the doctors .",The manager waited .,entailment, the manager waited is the same as the manager waited .,constituent
+neutral,"Unless the artist shouted , the scientists called the president .",The artist shouted .,entailment, the artist is a person .,constituent
+neutral,"If the scientist advised the actor , the artist called the secretaries .",The scientist advised the actor .,entailment, the chef is the same as the professor .,constituent
+neutral,"Whether or not the managers slept , the judges stopped the secretary .",The managers slept .,contradiction, the employees who are asleep are not the same as the first sentence .,constituent
+neutral,"Whether or not the professors supported the students , the actor stopped the scientist .",The professors supported the students .,entailment, the professor is the same as the .,constituent
+neutral,"Unless the author avoided the professors , the athletes recognized the actors .",The author avoided the professors .,contradiction, the author can not be the same statement and the same time .,constituent
+neutral,"If the tourist supported the secretary , the lawyers saw the actors .",The tourist supported the secretary .,entailment, the tourist is the same as the tourist .,constituent
+neutral,"In case the bankers advised the presidents , the author called the doctors .",The bankers advised the presidents .,entailment, the doctors are the president .,constituent
+neutral,"In case the authors ran , the manager called the artists .",The authors ran .,entailment, the name ran the store .,constituent
+neutral,"In case the athletes encouraged the artists , the professors danced .",The athletes encouraged the artists .,entailment, the athletes who are artists are artists .,constituent
+neutral,"Unless the senators resigned , the doctors recommended the banker .",The senators resigned .,entailment, the doctors are being patted by the doctors .,constituent
+neutral,"Unless the secretaries supported the scientist , the students arrived .",The secretaries supported the scientist .,entailment, the university is being interviewed .,constituent
+neutral,"If the tourists avoided the actors , the scientists thanked the lawyers .",The tourists avoided the actors .,contradiction, the actors are either paying the attention or they were the ones .,constituent
+neutral,"In case the scientists introduced the lawyers , the professor admired the secretaries .",The scientists introduced the lawyers .,contradiction, the doctors can not be both and and the are not the same .,constituent
+neutral,"Unless the actor danced , the doctors performed .",The actor danced .,entailment, the actors performed by the actors .,constituent
+neutral,"Whether or not the secretary stopped the doctor , the tourist recommended the judge .",The secretary stopped the doctor .,entailment, the nun is the doctor and the doctor is a doctor .,constituent
+neutral,"Whether or not the manager saw the senators , the artists shouted .",The manager saw the senators .,entailment, the manager saw the pope .,constituent
+neutral,"Unless the manager danced , the doctors admired the lawyer .",The manager danced .,entailment, manager and the doctor are the same .,constituent
+neutral,"In case the managers recognized the doctor , the tourist recommended the author .",The managers recognized the doctor .,entailment, the doctor is the doctor .,constituent
+neutral,"In case the doctors saw the tourist , the lawyer performed .",The doctors saw the tourist .,entailment, the doctors saw the tourist is the same as the doctors saw the tourist .,constituent
+neutral,"Unless the actors encouraged the student , the scientists introduced the secretaries .",The actors encouraged the student .,entailment, the actors are the student .,constituent
+neutral,"In case the students waited , the author stopped the professor .",The students waited .,entailment, students are waiting for the train,constituent
+neutral,"Unless the banker recognized the author , the doctors shouted .",The banker recognized the author .,entailment, the jockey is the name of the patient .,constituent
+neutral,"Unless the secretary introduced the author , the judge resigned .",The secretary introduced the author .,entailment, the nun is the name of the author .,constituent
+neutral,"If the actors saw the manager , the tourists admired the senator .",The actors saw the manager .,entailment, the actors saw the manager because they were telling the actors .,constituent
+neutral,"In case the students shouted , the author supported the tourists .",The students shouted .,entailment, students are still a group of students .,constituent
+neutral,"Unless the scientist called the presidents , the tourists avoided the student .",The scientist called the presidents .,contradiction, the professor can not be both the professor and the professor at the same time .,constituent
+neutral,"Unless the athlete avoided the managers , the president waited .",The athlete avoided the managers .,entailment, the athlete who the mailman is the same as the athlete being the first .,constituent
+neutral,"Whether or not the scientists performed , the professors waited .",The scientists performed .,entailment, the scientists are performing so they must be .,constituent
+neutral,"Unless the president ran , the artists supported the doctor .",The president ran .,entailment," the president ran is a rephrasing of `` the president ran , ''",constituent
+neutral,"Whether or not the judges encouraged the students , the tourist arrived .",The judges encouraged the students .,contradiction, the judges can not be both and the judges .,constituent
+neutral,"In case the tourist called the artists , the president believed the scientists .",The tourist called the artists .,entailment, the tourist is the tourist .,constituent
+neutral,"Unless the managers ran , the scientist slept .",The managers ran .,entailment, the patient ran and the patient are the same .,constituent
+neutral,"Unless the actors saw the secretary , the lawyers admired the presidents .",The actors saw the secretary .,entailment, the actors saw the president which means they saw the .,constituent
+neutral,"If the professor encouraged the manager , the senator thanked the banker .",The professor encouraged the manager .,entailment, the professor is the manager .,constituent
+neutral,"Whether or not the authors recommended the athlete , the secretaries recognized the professors .",The authors recommended the athlete .,contradiction, the librarian can not be the same person if they are the same .,constituent
+neutral,"Whether or not the secretary stopped the actors , the artist helped the bankers .",The secretary stopped the actors .,entailment, the singer is the main and the actors are the same .,constituent
+neutral,"Whether or not the professor thanked the athlete , the secretaries arrived .",The professor thanked the athlete .,entailment, the professor is the same as the .,constituent
+neutral,"If the actors stopped the bankers , the tourists called the scientists .",The actors stopped the bankers .,entailment," the actors stopped the bus , which means they are stopped the .",constituent
+neutral,"Whether or not the tourist believed the lawyer , the athlete admired the president .",The tourist believed the lawyer .,contradiction, the tourist can not be the same person as the lawyer .,constituent
+neutral,"Whether or not the professor admired the judge , the presidents advised the doctors .",The professor admired the judge .,entailment, the professor is the professor .,constituent
+neutral,"In case the managers saw the judge , the banker avoided the president .",The managers saw the judge .,entailment," the manager saw the judge , so the statement that the judge saw the judge , the apprentice , the apprentice , the apprentice , the president , the apprentice , the apprentice , the apprentice , the apprentice ,",constituent
+neutral,"Whether or not the judge encouraged the artists , the senator danced .",The judge encouraged the artists .,entailment, the judges who the artist are artists .,constituent
+neutral,"If the judge shouted , the professors encouraged the senators .",The judge shouted .,entailment, the judge is a rephrasing of the word ' .,constituent
+neutral,"In case the scientist supported the lawyers , the president called the senator .",The scientist supported the lawyers .,contradiction, the professor is either being the president or the .,constituent
+neutral,"In case the scientists encouraged the actor , the artists avoided the professors .",The scientists encouraged the actor .,entailment, the scientists who the camera are the same people who are the actor .,constituent
+neutral,"Whether or not the secretary advised the athletes , the artist mentioned the managers .",The secretary advised the athletes .,entailment, the officer is the artist .,constituent
+neutral,"In case the banker slept , the student ran .",The banker slept .,entailment, the monk is a person who is asleep .,constituent
+neutral,"Unless the managers resigned , the athletes performed .",The managers resigned .,entailment, the athletes who are performing are called the workers .,constituent
+neutral,"Whether or not the scientists slept , the senator helped the artist .",The scientists slept .,contradiction, the first sentence states that the doctors are working and the second sentence says they were sleeping .,constituent
+neutral,"If the secretary danced , the scientists arrived .",The secretary danced .,entailment, the nuns are dancing .,constituent
+neutral,"In case the president supported the manager , the banker called the scientists .",The president supported the manager .,entailment, the president the the conductor is the manager .,constituent
+neutral,"In case the authors advised the athlete , the judges admired the lawyer .",The authors advised the athlete .,entailment, the judges are the same as the judges .,constituent
+neutral,"If the artists saw the doctors , the judges resigned .",The artists saw the doctors .,neutral, the artists did not necessarily just the doctors .,constituent
+neutral,"In case the banker encouraged the doctor , the athlete recommended the managers .",The banker encouraged the doctor .,entailment, the doctor is the doctor .,constituent
+neutral,"In case the artists danced , the tourists ran .",The artists danced .,entailment, the dancers are dancing in the past .,constituent
