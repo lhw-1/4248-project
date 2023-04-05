@@ -1,17 +1,21 @@
 # 4248-project
 
+## Project Overview 
+
+This project was done as part of CS4248: Natural Language Processing, a course in National University of Singapore (NUS)
+
+Our project aims to analyze the shortcomings and performance of baseline models for the extended Stanford Natural Language Inference dataset ([e-SNLI](https://github.com/OanaMariaCamburu/e-SNLI)), and subsequently propose and implement some areas of improvements based on the findings. The project relates to textual entailment and focuses on two main tasks: (1) generation of explanations from given pairs of premise and hypothesis, and (2) prediction of a label based on the premise, hypothesis, and the generated explanation.
+
+---
+
+## Abstract
+
+...
+
+---
+
 ## Setup
 
-Make sure that you have Python version 3 or above before running the scripts.
+Make sure that you have Python version 3 or above before running the scripts, as well as the necessary dependencies.
 
-To install the dependencies, run the following command:
-
-```
-pip install -r requirements.txt
-```
-
-Next, to download the models, run either `sh bin/init.sh` or `bash bin/init.sh` depending on your system. This should download the model to be tested (currently only PredictAndExplain). Note that we are using `gdown` tool for downloading large files from Google Drive. This script will also download the test file from the [e-SNLI Repository](https://github.com/OanaMariaCamburu/e-SNLI), specifically [this file](https://github.com/OanaMariaCamburu/e-SNLI/blob/master/dataset/esnli_test.csv).
-
-Links for the three trained models available can be found [here](https://github.com/OanaMariaCamburu/e-SNLI#trained-models).
-
-Once the setup is complete, you should be able to run the code in the Notebook without issues :)
+---
