@@ -1,3 +1,5 @@
+# .gitignore Rules
+
 data/
 data/*
 plots/*

@@ -13,3 +13,5 @@ Our project aims to analyze the shortcomings and performance of baseline models 
 ## Setup
 
 Make sure that you have Python version 3 or above before running the scripts, as well as the necessary dependencies.
+
+You may refer to, or even run, `sh bin/init.sh` to download necessary models and data.
