@@ -24,9 +24,9 @@ You may refer to, or even run, `sh bin/init.sh` to download necessary models and
 
 ## Exploratory data analysis (EDA)
 
-All scripts and data related to EDA can be found in e-SNLI/EDA.
+All scripts and data related to EDA can be found in `e-SNLI/EDA`.
 
-There are 2 types of EDA:
+There are 2 directories in `e-SNLI/EDA`:
 1. `pre-run`
 - Content in this directory refers to any analysis done before running of pre-trained models. They involve the combined analysis of train, dev and test data, which amounts to a total of 500,000+ rows.
 
