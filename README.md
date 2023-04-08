@@ -29,6 +29,9 @@ All scripts and data related to EDA can be found in `e-SNLI/EDA`.
 There are 2 directories in `e-SNLI/EDA`:
 1. `pre-run`
 - Content in this directory refers to any analysis done before running of pre-trained models. They involve the combined analysis of train, dev and test data, which amounts to a total of 500,000+ rows.
+- `pre-run-EDA-sentence-distribution.ipynb` analyses the premise-hypothesis label distribution across the dataset (contradiction / entailment / neutral)
+- `pre-run_all_EDA.ipynb` analyses the the following:
+  - cosine similarities of premise-hypothesis pairs grouped by label
 
 2. `post-run`
 - Content in this directory refers to any analysis done after running of pre-trained models on the test dataset, where predictions have been generated.
