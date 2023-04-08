@@ -22,7 +22,7 @@ Make sure that you have Python version 3 or above before running the scripts, as
 
 You may refer to, or even run, `sh bin/init.sh` to download necessary models and data.
 
-## Exploratory data analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 All scripts and data related to EDA can be found in `e-SNLI/EDA`.
 
@@ -34,6 +34,10 @@ There are 2 directories in `e-SNLI/EDA`:
   - `pre-run_all_data_0.csv` and `pre-run_all_data_1.csv` is data used by `pre-run_all_EDA.ipynb`.
 
 2. `post-run`
-- Content in this directory refers to any analysis done after running of pre-trained models on the test dataset, where predictions have been generated.
+- Content in this directory refers to any analyses done after running of pre-trained models on the test dataset, where predictions have been generated. The main analyses done here are:
+  - Error analysis of running e-SNLI model (ExplainThenPredictAttention) in the notebook `post-run_esnli_error_analysis.ipynb`.
+  - Analysis of ExplainThenPredictAttention model robustness through running it against the HANS dataset which tests 3 fallable syntactic heuristics: lexical overlap, subsequence and constituent, in the notebook `HANS Heuristics/post_run_analyze_test_heuristics_HANS.ipynb`.
+  - Analysis of ExplainThenPredictAttention model robustness through examining its output after swapping premise and hypothesis inputs, which is located in the directory `Swap Sentences`.
+  
 
 
