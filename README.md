@@ -21,3 +21,16 @@ The `plots` directory contains various diagrams created from our analysis, and t
 Make sure that you have Python version 3 or above before running the scripts, as well as the necessary dependencies.
 
 You may refer to, or even run, `sh bin/init.sh` to download necessary models and data.
+
+## Exploratory data analysis (EDA)
+
+All scripts and data related to EDA can be found in e-SNLI/EDA.
+
+There are 2 types of EDA:
+1. `pre-run`
+- Content in this directory refers to any analysis done before running of pre-trained models. They involve the combined analysis of train, dev and test data, which amounts to a total of 500,000+ rows.
+
+2. `post-run`
+- Content in this directory refers to any analysis done after running of pre-trained models on the test dataset, where predictions have been generated.
+
+
