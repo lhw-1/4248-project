@@ -32,6 +32,7 @@ There are 2 directories in `e-SNLI/EDA`:
 2. `post-run`
 - Content in this directory refers to any analyses done after running of pre-trained models on the test dataset, where predictions have been generated. The main analyses done here are:
   - Error analysis of running e-SNLI model (ExplainThenPredictAttention) in the notebook `post-run_esnli_error_analysis.ipynb`.
+  - Human Evaluation and analysis of the explanations generated from running e-SNLI model (ExplainThenPredictAttention) in the directory `Predicted Explanation Evaluation`, in the 2 notebooks `EDA - Analyse Explanation Quality.ipynb` and `EDA - Sensibility of Predicted Explanation.ipynb`.
   - Analysis of ExplainThenPredictAttention model robustness through running it against the HANS dataset which tests 3 fallable syntactic heuristics: lexical overlap, subsequence and constituent, in the notebook `HANS Heuristics`/`post_run_analyze_test_heuristics_HANS.ipynb`.
   - Analysis of ExplainThenPredictAttention model robustness through examining its output after swapping premise and hypothesis inputs, which is located in the directory `Swap Sentences`.
   
