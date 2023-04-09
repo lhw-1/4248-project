@@ -39,5 +39,7 @@ There are 2 directories in `e-SNLI/EDA`:
   - Analysis of ExplainThenPredictAttention model robustness through running it against the HANS dataset which tests 3 fallable syntactic heuristics: lexical overlap, subsequence and constituent, in the notebook `HANS Heuristics`/`post_run_analyze_test_heuristics_HANS.ipynb`.
   - Analysis of ExplainThenPredictAttention model robustness through examining its output after swapping premise and hypothesis inputs, which is located in the directory `Swap Sentences`.
   
-
-
+## e-SNLI models
+We used the pre-trained models from the [original repository](https://github.com/OanaMariaCamburu/e-SNLI):
+- ExplainAndPredictAttention: https://drive.google.com/file/d/1l7dnml7mDnT72QrwZMmA7VGIsWjVpQT6/view?usp=sharing
+- ExplainationsToLabels: https://drive.google.com/file/d/1_rFGlFYHSJ1xqjA2lDjzBvO5mf7INo1A/view?usp=sharing
