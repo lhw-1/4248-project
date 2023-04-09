@@ -6,10 +6,6 @@ This project was done as part of CS4248: Natural Language Processing, a course i
 
 Our project aims to analyze the shortcomings and performance of baseline models for the extended Stanford Natural Language Inference dataset [e-SNLI](https://github.com/OanaMariaCamburu/e-SNLI), as well as Facebook's [InferSent](https://github.com/facebookresearch/InferSent), and subsequently propose and implement some areas of improvements based on the findings. The project relates to textual entailment and focuses on two main tasks: (1) generation of explanations from given pairs of premise and hypothesis, and (2) prediction of a label based on the premise, hypothesis, and the generated explanation.
 
-### Abstract
-
-[Insert Project Abstract here]
-
 ## Navigating this Repository
 
 The main scripts are located in the `e-SNLI` and `InferSent` directories, each containing Python scripts and notebooks on analysis for e-SNLI and InferSent respectively.
@@ -43,3 +39,7 @@ There are 2 directories in `e-SNLI/EDA`:
 We used the pre-trained models from the [original repository](https://github.com/OanaMariaCamburu/e-SNLI):
 - ExplainAndPredictAttention: https://drive.google.com/file/d/1l7dnml7mDnT72QrwZMmA7VGIsWjVpQT6/view?usp=sharing
 - ExplainationsToLabels: https://drive.google.com/file/d/1_rFGlFYHSJ1xqjA2lDjzBvO5mf7INo1A/view?usp=sharing
+
+We ran the this model against the e-SNLI test set (`dataset/esnli_test.csv`) and obtained the result (`e-SNLI/EDA/post-run/post-run_esnli_test_data.csv`).
+
+In addition, we also ran the model against a subset of HANS dataset (`dataset/heuristic_eval.csv`) and obtained the result (`e-SNLI/EDA/post-run/HANS Heuristics/HANS_output.csv`). Link to the original HANS repository: https://github.com/tommccoy1/hans
