@@ -87,4 +87,14 @@ Options:
 
 We ran the this model against the e-SNLI test set (`dataset/esnli_test.csv`) and obtained the result (`e-SNLI/EDA/post-run/post-run_esnli_test_data.csv`).
 
-In addition, we also ran the model against a subset of HANS dataset (`dataset/heuristic_eval.csv`) and obtained the result (`e-SNLI/EDA/post-run/HANS Heuristics/HANS_output.csv`). Link to the original HANS repository: https://github.com/tommccoy1/hans
+To run the e-SNLI model against e-SNLI test set, just run the above command without modify anything. 
+
+In addition, we also ran the model against a subset of HANS dataset (`dataset/heuristic_eval.csv`) and obtained the result (`e-SNLI/EDA/post-run/HANS Heuristics/HANS_output.csv`). Link to the original HANS repository: https://github.com/tommccoy1/hans.
+
+To run the e-SNLI model against HANS dataset, we did the following:
+- replace all the rows `dataset/eSNLI/s1.test` file with all the sentences in `Sentence1` column in `heuristic_eval.csv` file. 
+- replace all the rows `dataset/eSNLI/s2.test` file with all the sentences in `Sentence2` column in `heuristic_eval.csv` file. 
+- replace `dataset/eSNLI/labels.test` file with all the labels in `gold_label` column in `heuristic_eval.csv` file. However, if the `gold_label` is `non-entailment`, we need to change it to `neutral` (when running HANS dataset, we treated `neutral` and `contradiction` labels the same).
+- replace `dataset/eSNLI/UNK_freq_15_preproc1_expl_1.test`, `dataset/eSNLI/UNK_freq_15_preproc1_expl_2.test` and `dataset/eSNLI/UNK_freq_15_preproc1_expl_3.test` files with empty lines. The number of empty lines is equal to the number of examples in HANS dataset that are used to test the heuristics.
+
+After these, we ran the above command to obtain the output.
