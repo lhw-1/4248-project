@@ -72,6 +72,19 @@ We used the pre-trained models from the [original repository](https://github.com
 - ExplainThenPredictAttention: https://drive.google.com/file/d/1l7dnml7mDnT72QrwZMmA7VGIsWjVpQT6/view?usp=sharing
 - ExplainationsToLabels: https://drive.google.com/file/d/1_rFGlFYHSJ1xqjA2lDjzBvO5mf7INo1A/view?usp=sharing
 
+In order to run the models and produce the output for analysis, we used the code from [this repository](https://github.com/vibhavagarwal5/e-SNLI) (this is not the original repository since that does not support Python 3).
+
+After cloning the repository above, go to `attention` folder where `launch_eval_attention_bottom.py` is located. To produce the output, run this command:
+```sh
+python launch_eval_attention_bottom.py [option]
+```
+Options:
+- `--directory`: Path to the folder containing ExplainAndPredictAttention model. 
+- `--state_path`: The file name of ExplainAndPredictAttention model.
+- `-eval_batch_size`: The batch size used when evaluating the model. The default value is 32.
+- `--directory_expl_to_labels`: Path to the folder containing ExplainationsToLabels model. 
+- `--state_path_expl_to_labels`: The file name of ExplainationsToLabels model. 
+
 We ran the this model against the e-SNLI test set (`dataset/esnli_test.csv`) and obtained the result (`e-SNLI/EDA/post-run/post-run_esnli_test_data.csv`).
 
 In addition, we also ran the model against a subset of HANS dataset (`dataset/heuristic_eval.csv`) and obtained the result (`e-SNLI/EDA/post-run/HANS Heuristics/HANS_output.csv`). Link to the original HANS repository: https://github.com/tommccoy1/hans
