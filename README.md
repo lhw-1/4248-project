@@ -42,14 +42,14 @@ We used the pre-trained encoder from the [original repository](https://github.co
 
 We had to train the NLI model from scratch since the original repository did not provide their trained NLI model (except the trained encoder).
 
-Before proceeding, please download the [GloVe embeddings] (http://nlp.stanford.edu/data/glove.840B.300d.zip) and unzip and place the .txt file to the `dataset/GloVe/` directory.
+Before proceeding, please download the [GloVe embeddings](http://nlp.stanford.edu/data/glove.840B.300d.zip) and unzip and place the .txt file to the `dataset/GloVe/` directory.
 
 Please run the notebook `InferSent_ST-InferSent/infersent_training.ipynb` and follow instructions in the notebook with default settings to train the InferSent NLI model.
 
 The trained InferSent model can be downloaded at:
 - trained InferSent NLI model: https://drive.google.com/file/d/19HBWkX-FY6inoAjseRJ4zhp2GrLM4DjB/view?usp=sharing  
 
-Please place the above trained model `model84.pickle` in the `savedir` directory.
+You can either run the training notebook (and rename the output file to `model84.pickle`) or just download the above trained model `model84.pickle` and place in the `savedir` directory.
 
 For batch inference/evaluation, please run the notebook `InferSent_ST-InferSent/eval_preds_is.ipynb`.
 
@@ -61,13 +61,13 @@ Please run the notebook `InferSent_ST-InferSent/sentransformer_training.ipynb` a
 The trained InferSent model can be downloaded at:
 - trained InferSent NLI model: https://drive.google.com/file/d/1wnKo6wgmQlW5rV5pvIajQsEoDOAQIHf7/view?usp=sharing
 
-Please place the above trained model `modelst.pickle` in the `savedir` directory.
+You can either run the training notebook (and rename the output file to `modelst.pickle`) or download the above trained model `modelst.pickle` and place it in the `savedir` directory.
 
 For batch inference/evaluation, please run the notebook `InferSent_ST-InferSent/eval_preds_st.ipynb`.
 
 ## e-SNLI models
 We used the pre-trained models from the [original repository](https://github.com/OanaMariaCamburu/e-SNLI):
-- ExplainAndPredictAttention: https://drive.google.com/file/d/1l7dnml7mDnT72QrwZMmA7VGIsWjVpQT6/view?usp=sharing
+- ExplainThenPredictAttention: https://drive.google.com/file/d/1l7dnml7mDnT72QrwZMmA7VGIsWjVpQT6/view?usp=sharing
 - ExplainationsToLabels: https://drive.google.com/file/d/1_rFGlFYHSJ1xqjA2lDjzBvO5mf7INo1A/view?usp=sharing
 
 We ran the this model against the e-SNLI test set (`dataset/esnli_test.csv`) and obtained the result (`e-SNLI/EDA/post-run/post-run_esnli_test_data.csv`).
