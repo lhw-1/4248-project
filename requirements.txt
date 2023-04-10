@@ -1,0 +1,6 @@
+datasets
+gdown
+nltk
+pandas
+sentence_transformers
+torch==1.13.0
