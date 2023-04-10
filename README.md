@@ -1,5 +1,7 @@
 # 4248-project
 
+## Natural Language Inference with Explanation-augmented Dataset: An investigation into its merits and shortcomings
+
 ## Overview 
 
 This project was done as part of CS4248: Natural Language Processing, a course in National University of Singapore (NUS).
