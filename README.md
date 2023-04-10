@@ -85,6 +85,8 @@ Options:
 - `--directory_expl_to_labels`: Path to the folder containing ExplainationsToLabels model. 
 - `--state_path_expl_to_labels`: The file name of ExplainationsToLabels model. 
 
+Before running the models, we downloaded the [GloVe embeddings](http://nlp.stanford.edu/data/glove.840B.300d.zip), unzipped and placed the .txt file to the `dataset/GloVe/` directory.
+
 We ran the this model against the e-SNLI test set (`dataset/esnli_test.csv`) and obtained the result (`e-SNLI/EDA/post-run/post-run_esnli_test_data.csv`).
 
 To run the e-SNLI model against e-SNLI test set, just run the above command without modify anything. 
